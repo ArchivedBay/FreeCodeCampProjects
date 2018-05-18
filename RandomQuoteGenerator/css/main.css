@@ -1,0 +1,92 @@
+body{
+    height: 100%;
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+.headerContainer{
+    width: 100%;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Lily Script One', cursive;
+    margin-bottom: 5%;
+}
+
+#quoteBox{
+    padding: 10px;
+    min-width: 50%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: #2d2d2d;
+    color: #fff;
+    border-radius: 10px;
+    
+    /* centers content inside of container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+     /* centers div inside of body */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#quoteBox h2{
+    font-family: 'Lobster', cursive;
+}
+#newQuote{
+    position: absolute;
+    left: 1.5%;
+    bottom: 2%;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    color: #ddd;
+    outline: none;
+    background: transparent;
+}
+.dataUpdate{
+    position: absolute;
+    left: 1.5%;
+    bottom: 15%;
+}
+
+#quoteBox:before{
+    content: "“";
+    padding: 5px;
+    font-size: 5em;
+    position: absolute;
+    left: 1%;
+    top: -2%;
+    font-family: 'Lily Script One', cursive;
+}
+#quoteBox:after{
+    content: "”";
+    padding: 5px;
+    font-size: 5em;
+    position: absolute;
+    right: 1%;
+    bottom: -30%;
+    font-family: 'Lily Script One', cursive;
+}
+
+.hide{
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -ms-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+}
+.visible{
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -ms-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+}
