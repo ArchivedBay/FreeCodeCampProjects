@@ -54,24 +54,21 @@ body{
     left: 1.5%;
     bottom: 15%;
 }
-
-#quoteBox:before{
-    content: "“";
+#quoteBox:before, #quoteBox:after{
     padding: 5px;
     font-size: 5em;
     position: absolute;
+    font-family: 'Lily Script One', cursive;
+}
+#quoteBox:before{
+    content: "“";
     left: 1%;
     top: -2%;
-    font-family: 'Lily Script One', cursive;
 }
 #quoteBox:after{
     content: "”";
-    padding: 5px;
-    font-size: 5em;
-    position: absolute;
     right: 1%;
     bottom: -30%;
-    font-family: 'Lily Script One', cursive;
 }
 
 .hide{
