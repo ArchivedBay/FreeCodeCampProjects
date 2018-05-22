@@ -15,3 +15,9 @@ Below is the list of projects contained within this repo that I worked on, as we
  - Background & animation changes depending on the weather
  - I used a hosting service to host the images since codepen does not play nicely with imgur links, so it is a bit slow since       it has to grab those images from the server.
  
+  ### Wikipedia Viewer ###
+ - Uses HTML, CSS, Javascript, and jQuery
+ - Implements Wikipedia's search API to get the first relevant result from the requested search term
+ - upon hitting enter, the page updates and creates a div containing the title as well as a paragraph or definiton
+ - Made sure that upon entering another search term afterwords that the page "resets" so as to not overflow.
+ 
