@@ -9,15 +9,22 @@ Below is the list of projects contained within this repo that I worked on, as we
  - Simple fade technique utilizing setTimeout() and toggling classes.
  - Styling the quote box : alignment was done with flexbox for the actual box, and position absolute for the elements inside.
  
- ### Weather Forecast Display ###
+### Weather Forecast Display ###
  - Uses HTML, CSS, Javascript, and jQuery
  - Implements FreeCodeCamp's weather API and HTML5's Geolocation to get your location and display the current weather/temp
  - Background & animation changes depending on the weather
  - I used a hosting service to host the images since codepen does not play nicely with imgur links, so it is a bit slow since       it has to grab those images from the server.
  
-  ### Wikipedia Viewer ###
+### Wikipedia Viewer ###
  - Uses HTML, CSS, Javascript, and jQuery
  - Implements Wikipedia's search API to get the first relevant result from the requested search term
  - upon hitting enter, the page updates and creates a div containing the title as well as a paragraph or definiton
  - Made sure that upon entering another search term afterwords that the page "resets" so as to not overflow.
  
+### Twitch Stream Info ###
+ - Uses HTML, CSS, Javascript, and jQuery
+ - Implements a workaround of Twitch's kraken API to not require an API key
+ - Uses a Document Fragment to create DOM elements as opposed to direct appending
+ - Very simple interface, allows for further entries simply by adding the streamer's username into the array.
+ - API updates the logo, as well as displays their url and what they're currently playing / last played.
+ - I tried to use jQuery as little as possible so I could experiment how to implement features using vanilla JS.
