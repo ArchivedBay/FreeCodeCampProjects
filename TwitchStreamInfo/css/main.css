@@ -1,0 +1,66 @@
+a,a:visited, a:hover{
+	text-decoration: none;
+	color: #fff;
+	
+}
+.jumbotron{
+	margin-bottom: 0;
+	border-bottom: 1px solid #000;
+	border-radius: 0;
+}
+.inner{
+	box-shadow: 4px 4px #000;
+}
+.content{
+	width: 100%;
+	padding: 10px;
+	background-color: #ccc;
+	background-image: url('https://res.cloudinary.com/dqsv19kzu/image/upload/v1526687779/pixel3.jpg');
+	
+}
+.streamer{
+	width: 100%;
+	border: 1px solid #000;
+	background-color: rgba(140,140,140,0.4);
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.7);
+	height: 200px;
+	display: flex;
+	margin: 0 0 20px 0;
+}
+.logo, .right, .url, .nowPlaying{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right{
+	flex-direction: column;
+}
+.url, .nowPlaying{
+	width: 100%;
+}
+.url{
+	background-color: rgba(0,0,0,0.4);
+}
+.nowPlaying{
+	background-color: rgba(0,0,0,0.3);
+}
+.nowPlaying h3{
+	display: inline;
+	margin-right: 10px;
+}
+
+.logo img{
+	width: 150px;
+	border-radius: 50%;
+	transition: border-radius 0.1s ease;
+}
+.logo img:hover{
+	border-radius: 0;
+	transition: border-radius 0.1s ease;
+}
+.url a:hover{
+	color: #000;
+}
+
